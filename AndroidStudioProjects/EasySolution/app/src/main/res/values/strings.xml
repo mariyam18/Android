@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EasySolution</string>
+    <string name="computer">Computer</string>
+    <string name="extc">EXTC</string>
+    <string name="it">IT</string>
+    <string name="compPage">COMPUTER</string>
+    <string name="comp_sem_3">SEM 3</string>
+    <string name="comp_sem_4">SEM 4</string>
+    <string name="comp_sem_5">SEM 5</string>
+    <string name="comp_sem_6">SEM 6</string>
+    <string name="comp_sem_8">SEM 8</string>
+    <string name="comp_sem_7">SEM 7</string>
+
+
+    <string name="extc_sem_3">SEM 3</string>
+    <string name="extc_sem_4">SEM 4</string>
+    <string name="extc_sem_5">SEM 5</string>
+    <string name="extc_sem_6">SEM 6</string>
+    <string name="extc_sem_7">SEM 7</string>
+    <string name="extc_sem_8">SEM 8</string>
+    <string name="extcPage">EXTC</string>
+
+    <string name="itPage">IT</string>
+    <string name="it_sem_3">SEM 3</string>
+    <string name="it_sem_4">SEM 4</string>
+    <string name="it_sem_5">SEM 5</string>
+    <string name="it_sem_7">SEM 7</string>
+    <string name="it_sem_8">SEM 8</string>
+    <string name="it_sem_6">SEM 6</string>
+    <string name="C_5_db">DB</string>
+    <string name="C_5_tcs">TCS</string>
+    <string name="C_5_mp">MP</string>
+    <string name="C_5_cn">CN</string>
+    <string name="C_5_ms">Elective-MS</string>
+    <string name="C_5_aa">Elective-AA</string>
+    <string name="comp_5">Comp--Sem5</string>
+    <string name="comp_4">Comp--Sem4</string>
+    <string name="comp_3">Comp--Sem3</string>
+</resources>

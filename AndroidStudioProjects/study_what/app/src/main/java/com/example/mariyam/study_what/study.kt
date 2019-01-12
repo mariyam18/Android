@@ -7,7 +7,7 @@ import java.util.*
 
 class study : AppCompatActivity() {
 
-    val studylist = arrayListOf("Beat_Box","Instagram","Sylabus","Youtube","Video_work")
+    val studylist = arrayListOf("Android","Java_Course","Web","Sylabus","Project")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
