@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PredictingApp</string>
+    <string name="app_Name">APP Name</string>
+    <string name="enter_the_app_name">Enter the APP Name</string>
+    <string name="category">Category</string>
+    <string name="enter_the_category">Enter the Category</string>
+    <string name="app_size">APP Size</string>
+    <string name="enter_the_app_size">Enter the APP size</string>
+    <string name="instals">Instals</string>
+    <string name="enter_the_no_of_instals">Enter the no of Instals</string>
+    <string name="type">Type</string>
+    <string name="content_rating">Content Rating</string>
+    <string name="enter_the_type_of_app">Enter the type of APP</string>
+    <string name="enter_the_content_rating">Enter the Content Rating</string>
+    <string name="price">Price</string>
+    <string name="enter_the_price_of_app">Enter the price of APP</string>
+    <string name="genres">Genres</string>
+    <string name="enter_the_genres">Enter the Genres</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="enter_the_last_update_date">Enter the Last Update Date</string>
+    <string name="current_version">Current Version</string>
+    <string name="enter_the_current_version">Enter the Current Version</string>
+    <string name="android_version">Android version</string>
+    <string name="enter_the_android_version">Enter the Android version</string>
+</resources>

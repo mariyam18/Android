@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "793988122801",
+    "firebase_url": "https://mapdemo-b238e.firebaseio.com",
+    "project_id": "mapdemo-b238e",
+    "storage_bucket": "mapdemo-b238e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793988122801:android:8119c7adbc6d21ae",
+        "android_client_info": {
+          "package_name": "com.example.mariyam.mapdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793988122801-79h6s01qc255giqvaiss64uub6pna3b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf-D4v1qruRlBzL_BnYc7HKLfqrr-hqz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793988122801-79h6s01qc255giqvaiss64uub6pna3b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

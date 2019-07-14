@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "943374376037",
+    "firebase_url": "https://storyteller-bfe57.firebaseio.com",
+    "project_id": "storyteller-bfe57",
+    "storage_bucket": "storyteller-bfe57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943374376037:android:58b847e1494aaf63",
+        "android_client_info": {
+          "package_name": "com.example.mariyam.storyteller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943374376037-7t4dqe4u3vn3f3bfhskbp26a3fgrufrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7gI3oIjDa_gojNM3vPjQTTNR-25xVT8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943374376037-7t4dqe4u3vn3f3bfhskbp26a3fgrufrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
