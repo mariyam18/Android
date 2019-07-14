@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Do_what?</string>
+    <string name="Decide_Button">Decide!</string>
+    <string name="AddButton">ADD...</string>
+    <string name="Display">What to Do ?</string>
+    <string name="Edittext">Change in schedule</string>
+</resources>

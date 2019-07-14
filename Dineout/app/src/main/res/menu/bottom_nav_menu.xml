@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/explore"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Explore" />
+    <item
+        android:id="@+id/buyget"
+        android:icon="@drawable/ic_local_offer_black_24dp"
+        android:title="Buy 1 Get 1" />
+    <item
+        android:id="@+id/bill"
+        android:icon="@drawable/qr_code"
+        android:title="Pay Bill" />
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/profile"
+        android:title="Account" />
+</menu>

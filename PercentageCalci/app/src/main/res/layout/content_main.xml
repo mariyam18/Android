@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="31dp"
+        android:background="@android:color/background_dark"
+        android:text="P Calculator"
+        android:textColor="#f9f3eb"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="139dp"
+        android:text="Enter Percent:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="197dp"
+        android:text="Enter the Number:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtPercent"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:ems="10"
+        android:hint="Enter Percent..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:hint="Enter no..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="119dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="251dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Calculate"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="159dp"
+        android:background="@android:color/holo_purple"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+</RelativeLayout>

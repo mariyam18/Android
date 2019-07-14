@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        app:titleTextColor="@color/grey">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:logo="@drawable/ic_location_on_black_24dp"
+                android:text="Selected location"
+                android:textColor="#808080"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:gravity="end"
+                android:text="Mumbra,thane"
+                android:textColor="@android:color/black"
+
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+
+            android:background="@drawable/ic_notifications_black_24dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edtsearch"
+        android:layout_width="361dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/round"
+        android:drawableStart="@drawable/ic_search_black_24dp"
+        android:hint="Search by Restaurants,cuisine,etc"
+        android:paddingLeft="8dp"
+
+        android:paddingRight="8dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNav"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/bottom_nav_color"
+        app:itemTextColor="@color/bottom_nav_color"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomNav"
+        android:layout_below="@+id/edtsearch"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--  <android.support.v4.view.ViewPager
+                 android:id="@+id/viewPager"
+                 android:layout_width="match_parent"
+
+                 android:layout_height="180dp"
+                 /> -->
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+
+                android:src="@drawable/zomato_coupons"
+                />
+
+             <Button
+                 android:id="@+id/btn1"
+                 android:layout_width="350dp"
+                 android:layout_height="90dp"
+                 android:layout_below="@id/image"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginTop="10dp"
+
+                 android:background="@drawable/groupdine"
+                 android:paddingLeft="10dp"
+                 android:paddingTop="8dp" />
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="100dp"
+                 android:layout_below="@id/btn1"
+
+                 android:weightSum="2"
+                 android:layout_marginTop="10dp"
+                 android:orientation="horizontal">
+
+                 <Button
+                     android:id="@+id/btn2"
+                     android:layout_width="170dp"
+                     android:layout_height="85dp"
+                     android:layout_below="@id/btn1"
+                     android:layout_alignParentStart="true"
+                     android:layout_marginStart="14dp"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginRight="25dp"
+                     android:layout_weight="1"
+                     android:background="@drawable/groupnear"
+                     android:paddingLeft="25dp"
+                     android:paddingTop="50dp"
+                     android:paddingRight="25dp" />
+
+                 <Button
+                     android:id="@+id/btn3"
+                     android:layout_width="140dp"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/btn1"
+
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_weight="1"
+                     android:background="@drawable/group5star"
+                     android:paddingLeft="30dp"
+                     android:paddingTop="50dp" />
+             </LinearLayout>
+
+         </RelativeLayout>
+     </ScrollView>
+ </RelativeLayout>

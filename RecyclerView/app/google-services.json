@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "322880484595",
+    "firebase_url": "https://recyclerview-5d672.firebaseio.com",
+    "project_id": "recyclerview-5d672",
+    "storage_bucket": "recyclerview-5d672.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322880484595:android:616385d3b0b7e5c4",
+        "android_client_info": {
+          "package_name": "com.example.mariyam.recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322880484595-2cman3q2e76jthsifa7r719omgt8254j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mariyam.recyclerview",
+            "certificate_hash": "6b6513cd75187b952fba46654f486b5ba8be454c"
+          }
+        },
+        {
+          "client_id": "322880484595-n3cgd1v4gaua03m8d764ri2e7p6351o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_ItMgFRQOpyPjpKImEl3rtNo8j0DBdnw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322880484595-n3cgd1v4gaua03m8d764ri2e7p6351o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

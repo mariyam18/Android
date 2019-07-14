@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "129727532101",
+    "firebase_url": "https://frostyy-1e92e.firebaseio.com",
+    "project_id": "frostyy-1e92e",
+    "storage_bucket": "frostyy-1e92e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129727532101:android:b60d0a3a282aba86",
+        "android_client_info": {
+          "package_name": "com.example.mariyam.frostyy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129727532101-oums75cevmpli5vcsc0c0g70c7vrl9le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mariyam.frostyy",
+            "certificate_hash": "6b6513cd75187b952fba46654f486b5ba8be454c"
+          }
+        },
+        {
+          "client_id": "129727532101-2lkck86bntus5i1522inb3l5ajhj81bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCioiebMy_17BUwzjMjMCeCQEyydYgfLao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129727532101-2lkck86bntus5i1522inb3l5ajhj81bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
